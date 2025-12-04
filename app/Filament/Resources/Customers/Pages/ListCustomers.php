@@ -14,8 +14,7 @@ class ListCustomers extends ListRecords
     {
         return [
             CreateAction::make()
-              ->successNotificationTitle(null)
-              // ->successNotification(null),
+              ->successNotification(null),
         ];
     }
 }
